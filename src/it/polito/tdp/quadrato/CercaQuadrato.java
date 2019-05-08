@@ -17,6 +17,8 @@ public class CercaQuadrato {
 		this.cerca(parziale, 0);
 	}
 
+	// complessità di cerca: O((n^2)!)
+	
 	private void cerca(Quadrato parziale, int L) {
 		// le L caselle da 0 a L-1 sono piene
 		// devo trovare un valore per la casella
